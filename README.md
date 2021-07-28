@@ -18,6 +18,8 @@ In this manuscript, a regionalization of the Red Sea is proposed based on a clus
 * **silhouette_analysis.R**: used to perform a silhouette analysis with the climatological dataset  
 * **clustering.R**: used to perform climatological and annual clustering analysis  
 * **NM_function.R**: R functions used in different R scriprs  
+* **FIGURE_silhouette_analysis.R**: To produce figure S1  
+* **FIGURE_final.R**: To produce figures 1, 3, 4, 5, 6, 7 and S2   
 
 
 #### /data
