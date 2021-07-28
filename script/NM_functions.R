@@ -96,9 +96,9 @@ match_clus <- function(clus_01, clus_02) {
 si_analysis <- function(X, clus, subsetsize) {
   
   # Necessary information:
-  #   -          X: The numeric matrix (the data matrix) used as input into the Kmeans function (cases*variables).
+  #   -          X: The numeric matrix (the data matrix) used as input into the clustering function (cases*variables).
   #   -       clus: The vector of integers indicating the cluster to which each point (cases) is allocated
-  #   - subsetsize: percentage of the dataset to be sampled (between 0 and 1 = 0-100%; 0.01=1%, 0.1=10%, 0.2=20%...)
+  #   - subsetsize: percentage of the dataset to be sampled (between 0 and 1; 0.01=1%, 0.1=10%, 0.2=20%...)
   
   nclu    <- max(clus, na.rm = T) # The number of clusters
   subloc  <- sample(1:dim(X)[1], round(subsetsize*dim(X)[1]), replace=F) # ramdomly subset database
