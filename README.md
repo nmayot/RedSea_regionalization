@@ -3,7 +3,7 @@ Nicolas Mayot
 email: n.mayot@uea.ac.uk  
 
 
-### R scripts associated with the manuscript: Kheireddine *et al.* (in revision)
+### R scripts associated with the manuscript: [Kheireddine *et al.* (2021)](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021JC017486)
 
 In this manuscript, a regionalization of the Red Sea is proposed based on a clustring analysis of 21 years of surface chlorophyll-a concentration estimates from satellite images:  
 
